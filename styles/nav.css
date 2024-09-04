@@ -1,14 +1,17 @@
 nav {
   display: flex;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
-  padding-block: 20px;
+  padding: 20px 32px;
 }
 nav ul {
+  height: 32px;
   display: flex;
-  align-items: center;
   list-style: none;
+  align-items: center;
   gap: 16px;
+  padding: 4px;
 }
 nav ul li:last-child img{
   height: 40px;
