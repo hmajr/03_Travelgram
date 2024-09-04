@@ -1,18 +1,7 @@
 @import url(global.css);
 @import url(nav.css);
-@import url(user.css);
-
-header {
-  width: 100%;
-  height: 80px;
-  /* position: fixed; */
-  display: flex;
-  padding: 20px;
-  align-items: center;
-
-  justify-content: space-between;
-  background-color: var(--background-color);
-}
+@import url(header.css);
+@import url(main.css);
 
 footer {
   height: 72px;
