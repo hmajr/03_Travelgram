@@ -1,16 +1,27 @@
-.user-profile{
+
+header {
+  height: 240px;
   display: flex;
-  padding: 32px;
   justify-content: space-between;
+  padding: 32px;
 }
 .user-about {
   display: flex;
-  width: 592px;
+  width: 45%;
   gap: 32px;
 }
 .user-about img{
   height: 176px;
+  width: 176px;
   border-radius: 100%;
+  object-fit: cover;
+}
+
+.user-description {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 8px;
 }
 .user-description h1{
   font-weight: bold;
@@ -20,24 +31,22 @@
 }
 .user-description p{
   height: 176px;
-  border-radius: 100%;
   text-align: justify;
   font-size: 14px;
   line-height: 170%;
   color: var(--text-color-secondary);
 }
-.user-description {
-  display: flexbox;
-  gap: 8px
+.user-info {
+  align-self: center;  
 }
-
-.user-photogallery {
-  display: grid;
-  grid-template-columns: 286px 286px 286px 286px;
-  align-items: space-between;
-  gap: 24px;
-  padding: 24px 32px;
+.user-info ul{
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.user-photogallery img {
-  height: 286px;
+.user-info ul li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
