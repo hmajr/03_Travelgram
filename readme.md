@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <b>Smple fictional bus travel company (Busan) page for application of knowledge in html/css ising images</b>
+    <b>Simple fictional Instagram like page for application of knowledge in html/css grid concepts and html tags like main, footer, nav, etc</b>
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@ git clone https://github.com/hmajr/03_Travelgram
 How to start your project
 
 ```bash
-cd 02_Local-Turistico
+cd 03_Travelgram
 ```
 
 <h2 id="colab">🤝 Collaborators</h2>
