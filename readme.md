@@ -48,6 +48,7 @@ How to start your project
 
 ```bash
 cd 03_Travelgram
+./index.html
 ```
 
 <h2 id="colab">🤝 Collaborators</h2>
