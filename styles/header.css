@@ -50,3 +50,41 @@ header {
   gap: 8px;
   align-items: center;
 }
+
+@media (width < 44em){
+  header{
+    display: block;
+  }
+
+  .user-about{
+    width: 100%;
+    gap: 16px;
+    
+    & img{
+      height: 120px;
+      width: 120px;
+    }
+  }
+  .user-description{
+    display: block;
+    gap: 4px;
+    max-height: 150px;
+
+    & h1{
+      font-size: 24px;
+    }
+    & p{
+      font-size: 12px;
+      line-height: 125%;
+    }
+  }
+
+  .user-info{
+    margin-block: 16px;
+    & ul{
+      width: 100%;
+      flex-direction: row;
+    }
+  }
+}
+

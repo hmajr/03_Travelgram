@@ -11,3 +11,13 @@ footer div {
   gap: 16px;
 }
 
+@media (width < 44em ){
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    gap: 16px;
+    
+    font-size: 14px;
+  }
+}

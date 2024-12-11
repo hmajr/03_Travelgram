@@ -1,10 +1,18 @@
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
   padding: 24px 32px;
 }
 main img {
-  height: 285px;
+  max-width: 100%;
   object-fit: cover;
+}
+
+@media (width < 44em){
+  main{
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  
 }

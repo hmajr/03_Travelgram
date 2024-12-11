@@ -37,3 +37,17 @@ a:hover{
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+.smartphone-only{
+  display: none;
+}
+
+@media (width < 44em){
+  .desktop-only{
+    display: none;
+  }
+
+  .smartphone-only{
+    display: flex;
+  }
+}
